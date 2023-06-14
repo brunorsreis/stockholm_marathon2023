@@ -1,0 +1,22 @@
+marathondb_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.eu-stockholm-1.oraclecloud.com))(connect_data=(service_name=g114b7e420dfb56_marathondb_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+marathondb_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.eu-stockholm-1.oraclecloud.com))(connect_data=(service_name=g114b7e420dfb56_marathondb_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+marathondb_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.eu-stockholm-1.oraclecloud.com))(connect_data=(service_name=g114b7e420dfb56_marathondb_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+marathondb_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.eu-stockholm-1.oraclecloud.com))(connect_data=(service_name=g114b7e420dfb56_marathondb_tp.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+marathondb_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.eu-stockholm-1.oraclecloud.com))(connect_data=(service_name=g114b7e420dfb56_marathondb_tpurgent.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+ORACLEDB =
+(DESCRIPTION =
+               (ADDRESS = (PROTOCOL = TCPS)(HOST = adb.eu-stockholm-1.oraclecloud.com)(PORT = 1522))
+               (CONNECT_DATA =
+                   (SERVER = DEDICATED)
+                   SERVICE_NAME = g114b7e420dfb56_marathondb_tpurgent.adb.oraclecloud.com)
+                   )
+                   (SECURITY =
+                   (SSL_SERVER_DN_MATCH = YES)
+                   )
+                   ))
+
